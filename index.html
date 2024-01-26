@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+</head>
+
+<body>
+
+    <div class="kapsayıcı" style="
+        display: grid;
+        grid-template-columns:100px 100px 100px 200px;          /* senin iki etiketin varsa biri 100px digeri ise 100px olsun  */
+        
+        "> 
+
+        <div style="background-color: red;">kutu1</div>
+        <div style="background-color: blueviolet;">kutu2</div>
+        <div style="background-color: rgb(214, 226, 43);">kutu3</div>
+        <div style="background-color: orangered;">kutu4</div>
+
+    </div>
+    <div class="kapsayıcı" style="
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr ;  
+    column-gap: 10px;                            /* sütun kutucukların arasını 10px açar */
+    row-gap: 20px;                              /* satır şeklinde kutuların arasını açar  */
+    /* gap: 20px yaparsan satır/sütün ları eşit şekilde açar */
+    "> 
+
+    <div style="background-color: red; height: 200px;"><b>kutu1</b></div>
+    <div style="background-color: blueviolet;  height: 200px">kutu2</div>
+    <div style="background-color: rgb(214, 226, 43);  height: 200px"><strong>kutu3</strong></div>
+    <div style="background-color: teal; height: 200px;">kutu4</div>
+    <div style="background-color: turquoise;  height: 200px">kutu5</div>
+    <div style="background-color: thistle;  height: 200px">kutu6</div>
+   
+   
+</div>
+</body>
+
+</html>
